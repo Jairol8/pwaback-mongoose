@@ -3,7 +3,10 @@ node_modules/
 
 # Variables de entorno (CLAVES SECRETAS)
 .env
-
+.env.local
+.env.developmen
+.env.test
+.env.example
 # Builds
 dist/
 build/
