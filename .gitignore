@@ -1,0 +1,20 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (CLAVES SECRETAS)
+.env
+
+# Builds
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# VSCode
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+{
+    "version":2,
+    "functions":{
+        "api/index.js":{
+            "runtine":"@vercel/node@2.0",
+            "memory":1024,
+            "maxDuration":10
+        }
+    },
+    "rotes":[
+        {"SRC":"/api/(.*)", "dest":"/api/index.js"},
+        { "SRC":"/", "dest":"/api/index.js"}
+    ]
+}
