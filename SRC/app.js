@@ -14,7 +14,8 @@ app.use(cors({
         process.env.FRONT_ORIGIN || ""
     ].filter(Boolean),
     credentials: true
-}));
+})
+);
 
 app.use(express.json());
 app.use(morgan("dev"));
